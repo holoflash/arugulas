@@ -1,4 +1,4 @@
-import './styles/homeStyle.css';
+import '../styles/homeStyle.css';
 
 const headerAndFooter = () => {
     const content = document.getElementById('content');

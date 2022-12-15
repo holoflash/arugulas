@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Ferrum';
-    src: url('./ferrum.otf') format('otf');
+    src: url'(../ferrum.otf)' format('otf');
 }
 
 html {
@@ -16,7 +16,7 @@ html {
 }
 
 body {
-    background-image: url(./pizza.jpg);
+    background-image: url(../pizza.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
