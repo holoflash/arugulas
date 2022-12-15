@@ -1,0 +1,13 @@
+.menuItems{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: 1fr 1fr;
+
+}
+.aPizza{
+    list-style-type: none;
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
