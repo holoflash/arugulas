@@ -1,0 +1,23 @@
+.howdy {
+    margin: 20px;
+    align-self: flex-start;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.379);
+    padding: 10px;
+    width: min(600px, 85%);
+}
+
+.howdyText {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: min(30px, 4vw);
+}
+
+@media screen and (max-width: 500px) {
+    .howdy {
+        align-self: center;
+        margin: 20px;
+        line-height: 18px;
+        text-align: center;
+    }
+}
