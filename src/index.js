@@ -42,7 +42,7 @@ const frontPage = () => {
     const howdyText = document.createElement('tabOne');
     howdyText.className = 'howdyText';
     howdyText.innerText =
-        "Welcome to ARUGALA'S! \n\n At our restaurant, you can enjoy a wide range of pizzas, including classic margherita, pepperoni, and veggie. We also have unique options like our organic cherry tomato and goat cheese pizza, and our spicy sausage and mushroom pie.\n\n We take great care in crafting every pizza, using only the best ingredients and traditional techniques. Our dough is made fresh daily, and our sauce is made from ripe, organic tomatoes. We top each pizza with a generous amount of high-quality cheese and meats, as well as an array of fresh veggies.\n\n  So come on in and try one of our mouth-watering pizzas today! You won't be disappointed.";
+        "Welcome to ARUGALA'S! \n\nAt our restaurant, you can enjoy a wide range of pizzas, including classic margherita, pepperoni, and veggie. We also have unique options like our organic cherry tomato and goat cheese pizza, and our spicy sausage and mushroom pie.\n\n We take great care in crafting every pizza, using only the best ingredients and traditional techniques. Our dough is made fresh daily, and our sauce is made from ripe, organic tomatoes. We top each pizza with a generous amount of high-quality cheese and meats, as well as an array of fresh veggies.\n\n  So come on in and try one of our mouth-watering pizzas today! You won't be disappointed.\n\n 🍕🍕🍕";
 
     howdy.appendChild(howdyText);
     content.appendChild(howdy);
