@@ -1,5 +1,6 @@
 # Arugula's Restaurant Page
 
+Live: https://holoflash.github.io/arugulas/
 <img
   src="src/images/live.png"
   alt="live page">
