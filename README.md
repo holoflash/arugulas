@@ -2,9 +2,7 @@
 
 <img
   src="src/images/live.png"
-  alt="live page"
-  width="500px"
-  height="auto">
+  alt="live page">
 
 This is my Restaurant Page, made for The Odin Project course. It includes a header, footer, and three tabs: home, menu, and contact. When each tab is clicked, the corresponding page is displayed.
 
