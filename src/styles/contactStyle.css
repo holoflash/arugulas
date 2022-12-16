@@ -1,15 +1,30 @@
-.menuItems{
-    display: grid;
-    grid-auto-flow: column;
-    grid-template-rows: 1fr 1fr;
-
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.181);
+    padding: 10px;
+    margin: 20px;
 }
-.aContact{
-    list-style-type: none;
-    background-color: rgb(156, 194, 128);
-    height: 50px;
-    width: 500px;
-    margin: 10px;
-    font-size: 20px;
-    color: black;
+
+.contact,
+.description {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: min(35px, 3vw);
+}
+
+.contact > {
+    margin: 0px;
+    display: flex;
+}
+
+.material-icons {
+    font-size: 3vh;
+    color: white;
 }

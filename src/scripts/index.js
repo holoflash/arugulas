@@ -4,7 +4,7 @@ import showMenu from './menu.js';
 import showContact from './contact.js';
 import '../styles/globalStyle.css';
 
-const headerAndFooter = () => {
+(function headerAndFooter() {
     const content = document.getElementById('content');
     const header = document.createElement('header');
     header.className = 'header';
@@ -32,35 +32,26 @@ const headerAndFooter = () => {
 
     content.appendChild(header);
     content.appendChild(footer);
-};
+})();
 
-headerAndFooter();
 frontPage();
 
 const cleanDOM = () => {
     const allContent = document.getElementById('content');
-    while (allContent.firstChild) {
-        allContent.removeChild(allContent.lastChild);
-    }
+    allContent.removeChild(allContent.lastChild);
 };
 
 logo.addEventListener('click', () => {
     cleanDOM();
-    document.title = 'ARGULA\'S | WELCOME';
-    headerAndFooter();
     frontPage();
 });
 
 tabTwo.addEventListener('click', () => {
     cleanDOM();
-    document.title = 'ARGULA\'S | MENU';
-    headerAndFooter();
     showMenu();
 });
 
 tabThree.addEventListener('click', () => {
     cleanDOM();
-    document.title = 'ARGULA\'S | CONTACT';
-    headerAndFooter();
     showContact();
 });
