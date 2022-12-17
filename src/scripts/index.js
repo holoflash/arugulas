@@ -16,10 +16,10 @@ import '../styles/globalStyle.css';
     logo.textContent = "ARUGULA'S";
 
     tabTwo.className = 'tabs';
-    tabTwo.textContent = '- MENU';
+    tabTwo.textContent = 'MENU';
 
     tabThree.className = 'tabs';
-    tabThree.textContent = '- CONTACT';
+    tabThree.textContent = 'CONTACT';
 
     const footer = document.createElement('footer');
     footer.className = 'footer';
