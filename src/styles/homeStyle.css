@@ -10,7 +10,7 @@
 .howdyText {
     font-family: 'Courier New', Courier, monospace;
     color: white;
-    font-size: min(30px, 4vw);
+    font-size: min(35px, 3vw);
 }
 
 @media screen and (max-width: 500px) {

@@ -11,18 +11,14 @@ const frontPage = () => {
 
     const howdyText = document.createElement('tabOne');
     howdyText.className = 'howdyText';
-    howdyText.innerText = `Welcome to ARUGULA'S!
-    
-    At our restaurant, you can enjoy a wide range of pizzas, including classic margherita, pepperoni, and veggie.
-    We also have unique options like our organic cherry tomato and goat cheese pizza, and our spicy sausage and mushroom pie.
-    
-    We take great care in crafting every pizza, using only the best ingredients and traditional techniques.
-    Our dough is made fresh daily, and our sauce is made from ripe, organic tomatoes.
-    We top each pizza with a generous amount of high-quality cheese and meats, as well as an array of fresh veggies.
-    
-    So come on in and try one of our mouth-watering pizzas today! You won't be disappointed.
-    
-    🍕🍕🍕`;
+    howdyText.innerText = `Looking for a slice of the good life?
+
+    Come on down to Arugula's! We've got all your classic pizzas like margherita, pepperoni, and veggie, but we've also got some unique options like our organic cherry tomato and goat cheese pie or our spicy sausage and mushroom slice.
+
+    Trust us, we take our pizzas seriously. Our dough is made fresh daily and our sauce is made from ripe, organic tomatoes. Plus, we load each pie up with a generous amount of high-quality cheese and meats and fresh veggies. In other words, our pizzas are delicious.
+
+    So don't miss out - come on in and try one today!
+    `;
 
     howdy.appendChild(howdyText);
     middleContent.appendChild(howdy);

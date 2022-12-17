@@ -19,9 +19,10 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 #content {
@@ -59,11 +60,13 @@ body {
     color: rgb(255, 255, 255);
     height: fit-content;
     width: fit-content;
-    padding: 1vw;
+    padding: 2vw;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition: transform 0.2s;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .main {
@@ -71,10 +74,20 @@ body {
     font-style: italic;
     align-self: flex-start;
 }
+.tabs:hover,
+.main:hover {
+    color: rgb(254, 153, 0);
+    transform: translateY(5%);
+}
+
+.active {
+    color: rgb(254, 153, 0);
+    transform: translateY(5%);
+}
 
 .footer {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 15px;
+    font-size: min(35px, 3vw);
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -86,4 +99,25 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.swipeInfo {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: min(100px, 5vw);
+    position: absolute;
+    bottom: 100px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 3vh;
+    color: rgba(255, 255, 255, 0.597);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (min-width: 800px) {
+    .swipeInfo {
+        display: none;
+    }
 }
